@@ -1,4 +1,4 @@
-package Task_05;
+package task_05;
 
 import java.util.ArrayList;
 import java.util.Iterator;

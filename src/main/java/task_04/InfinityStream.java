@@ -1,6 +1,5 @@
-package Task_04;
+package task_04;
 
-import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

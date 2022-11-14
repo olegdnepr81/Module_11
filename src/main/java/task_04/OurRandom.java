@@ -1,4 +1,4 @@
-package Task_04;
+package task_04;
 
 public class OurRandom {
     private final long a, c, m;

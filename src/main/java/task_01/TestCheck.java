@@ -1,4 +1,4 @@
-package Task_01;
+package task_01;
 
 public class TestCheck {
     public static void main(String[] args) {

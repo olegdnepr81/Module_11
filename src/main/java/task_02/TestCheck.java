@@ -1,6 +1,4 @@
-package Task_02;
-
-import Task_01.FilterOddIndexName;
+package task_02;
 
 import java.util.Arrays;
 

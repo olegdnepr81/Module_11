@@ -1,4 +1,4 @@
-package Task_05;
+package task_05;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

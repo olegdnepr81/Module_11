@@ -1,4 +1,4 @@
-package Task_01;
+package task_01;
 
 public class FilterOddIndexName {
     public String nameLine (String[] name){
