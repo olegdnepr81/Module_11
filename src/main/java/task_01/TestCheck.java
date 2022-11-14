@@ -8,3 +8,5 @@ public class TestCheck {
 
     }
 }
+
+class STR
