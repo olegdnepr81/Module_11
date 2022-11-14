@@ -1,15 +1,16 @@
 package task_01;
 
-public class FilterOddIndexName {
-    public String nameLine (String[] name){
-        StringBuilder line = new StringBuilder();
-        for (int i = 0; i< name.length; i++){
-            if(i%2>0){
-                line.append(i + "." );
-                line.append(name[i] + " ");
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
-            }
-        }
-        return  line.toString().trim();
+public class FilterOddIndexName {
+    public void nameLine(String[] name) {
+        List<String> arr;
+        arr = IntStream.range(0, name.length)
+                .filter(n -> n % 2 != 0)
+                .mapToObj(index -> String.format("%d.%s", index, name[index]))
+                .collect(Collectors.toList());
+        System.out.println(arr);
     }
 }
