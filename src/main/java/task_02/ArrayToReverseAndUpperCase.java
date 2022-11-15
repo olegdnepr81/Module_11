@@ -1,11 +1,15 @@
 package task_02;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class ArrayToReverseAndUpperCase {
-    public static String[] reversUpperCase(String[] array) {
-
-        return Arrays.stream(array).sorted().map(String::toUpperCase).toArray(String[]::new);
+    public void reversUpperCase(String[] array) {
+        List<String> arr = Arrays.stream(array).sorted(Comparator.reverseOrder()).map(String::toUpperCase).collect(Collectors.toList());
+        System.out.println(arr);
     }
 }
 

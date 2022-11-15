@@ -6,6 +6,7 @@ import java.util.stream.IntStream;
 
 public class FilterOddIndexName {
     public void nameLine(String[] name) {
+
         List<String> arr;
         arr = IntStream.range(0, name.length)
                 .filter(n -> n % 2 != 0)
