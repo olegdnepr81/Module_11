@@ -8,8 +8,6 @@ public class Test {
     public static void main(String[] args) {
         Stream<String> stream1 = Stream.of("1", "2", "3", "4", "5", "6", "7");
         Stream<String> stream2 = Stream.of("1", "2", "3", "4", "5", "6", "7", "8", "9", "10");
-//        Stream<Integer> stream1 = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
-//        Stream<Integer> stream2 = Stream.of(1, 2, 3, 4, 5);
 
         System.out.println(Zip.zip(stream1, stream2)
                 // .peek(System.out::println)
